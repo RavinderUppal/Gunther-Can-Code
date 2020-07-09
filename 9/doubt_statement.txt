@@ -11,7 +11,7 @@ int main() {
 	int t;
 	cin>>t;
 	
-	while(t>0)
+	for (int rep=1; rep<=t; rep++)
 	{
 	    int n;
 	    cin>>n;
@@ -31,9 +31,9 @@ int main() {
 	        a=a/10;
 	    }
 	   if(sum==a)
-	    cout<<"YES";
+	    cout<<"YES"<<endl;
 	    else
-	    cout<<"NO";
+	    cout<<"NO"<<endl;
 	}
 	return 0;
 }
