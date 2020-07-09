@@ -8,10 +8,11 @@ using namespace std;
 int main() {
 	//code
 	
-	int t;
+	int t,i;
+	i=1;
 	cin>>t;
 	
-	while(t-->0)
+	while(i<=t)
 	{
 	    int n,b;int a[n];
 	    cin>>n>>b;
@@ -23,7 +24,8 @@ int main() {
 	        b=b*2;
 	    }
 	    
-	    cout<<b;
+	    cout<<b<<endl;
+	    i++;
 	    
 	}
 	return 0;
