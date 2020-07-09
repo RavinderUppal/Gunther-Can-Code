@@ -1,1 +1,9 @@
 Hello Please help Gunther understand how code is working and why the answer will be this . Explain the working of code in detail. Doubt image is attatched which you have to explain.
+answer:
+the output is:5 6
+value of a is stored in c
+because operand to right of comma has no effect
+and value of b is stored in d because of braces
+because with braces operand to the left of comma has no effect
+upon cout first c i.e 5 is printed and then d i.e 6 is printed and ' ' is seperator here
+
